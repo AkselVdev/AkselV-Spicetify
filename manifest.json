@@ -1,7 +1,7 @@
 {
     "name": "Vinyl Cover",
     "description": "Vinyl LP behind the cover image of the playing tracks album cover.",
-    "preview": "https://vilmann.eu/files/Hovering.png",
+    "preview": "https://vilmann.eu/files/vinylcoverPreview.png",
     "main": "Extensions/vinylcover.js",
     "readme": "README.md",
     "tags": ["Decoration", "Vinyl", "LP", "Album Cover", "Vinyl Cover"]
