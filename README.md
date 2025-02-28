@@ -8,7 +8,7 @@
   ![Vinyl Cover No Hover](https://vilmann.eu/files/notHover.png)
 
 - ### Installation
-  1. Install and set up [Spicetify](https://spicetify.app/docs/getting-started).
-  2. Navigate to your Spicetify config directory via the command `spicetify config-dir`.
-  3. [Download vinylcover.js](https://github.com/AkselVdev/AkselV-Spicetify/blob/main/Extensions/vinylcover.js) and place it in your `/Extensions`
-  4. Run `spicetify config extensions volumePercentage.js` and `Spicetify apply` in terminal.
+1. Install and set up [Spicetify](https://spicetify.app/docs/getting-started).
+2. Navigate to your Spicetify config directory via the command `spicetify config-dir`.
+3. [Download vinylcover.js](https://github.com/AkselVdev/AkselV-Spicetify/blob/main/Extensions/vinylcover.js) and place it in your `/Extensions`
+4. Run `spicetify config extensions volumePercentage.js` and `Spicetify apply` in terminal.
