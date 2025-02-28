@@ -53,7 +53,7 @@
       }
 
       /* --- HOVER EFFECT FOR THE VINYL --- */
-      .cover-art-image:hover ~ .cover-vinyl, cover-vinyl:hover {
+      .cover-art-image:hover ~ .cover-vinyl, .cover-vinyl:hover {
         left: 55%;
       }
     `;
@@ -85,7 +85,7 @@
         const currentTime = performance.now();
         const deltaTime = (currentTime - lastTime) / 1e3;
         lastTime = currentTime;
-        rotation += deltaTime * (360 / 10);
+        rotation += deltaTime * (360 / 1);
         vinyl.style.transform = `rotate(${rotation}deg)`;
         animationFrame = requestAnimationFrame(animateVinyl);
       }
