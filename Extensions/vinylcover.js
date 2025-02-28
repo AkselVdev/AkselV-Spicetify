@@ -53,19 +53,28 @@
       }
 
       /* --- HOVER EFFECT FOR THE VINYL --- */
-      .cover-art-image:hover ~ .cover-vinyl {
+      .cover-art-image:hover ~ .cover-vinyl, cover-vinyl:hover {
         left: 55%;
       }
     `;
       document.body.appendChild(style);
       coverArt.appendChild(vinyl);
       const coverArtImage = document.querySelector(".cover-art-image");
+      const coverVinyl = document.querySelector(".cover-vinyl");
       const coverContainer = document.querySelector(".main-coverSlotCollapsed-container");
       if (coverArtImage && coverContainer) {
         coverArtImage.addEventListener("mouseenter", () => {
           coverContainer.style.marginInlineEnd = "30px";
         });
         coverArtImage.addEventListener("mouseleave", () => {
+          coverContainer.style.marginInlineEnd = "16px";
+        });
+      }
+      if (coverVinyl && coverContainer) {
+        coverVinyl.addEventListener("mouseenter", () => {
+          coverContainer.style.marginInlineEnd = "30px";
+        });
+        coverVinyl.addEventListener("mouseleave", () => {
           coverContainer.style.marginInlineEnd = "16px";
         });
       }
